@@ -21,12 +21,24 @@ class DetailViewController: UIViewController, CLLocationManagerDelegate, MKMapVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        navigationItem.title = detail?.name
+        
         self.mapLocationUpdate(latitude: detail?.locationCoordinate.latitude ?? 0, longitude: detail?.locationCoordinate.longitude ?? 0, title: detail!.name)
         
         if let name = detail?.name {
             self.imageView.image = setImage(imageName: name)
-            self.imageView.layer.cornerRadius = 50
+            
+            self.imageView.layer.cornerRadius = 75
+            
+            self.imageView.layer.borderWidth = 3.0
+            self.imageView.layer.borderColor = UIColor.white.cgColor
+            
+            self.imageView.layer.shadowColor = UIColor.black.cgColor
+            self.imageView.layer.shadowOpacity = 1.0
+            self.imageView.layer.shadowOffset = .zero
+            self.imageView.layer.shadowRadius = 3.0 // ne radi
+    
         }
 
         self.titleName.text = detail?.name
@@ -76,18 +88,3 @@ class DetailViewController: UIViewController, CLLocationManagerDelegate, MKMapVi
         return UIImage(named: "\(trimmedString)")
     }
 }
-
-//extension DetailViewController: LandmarkDataStore {
-//
-//    func storeLandmark(_ dataManager: CostumTableViewCell, landmark: Landmark) {
-//        DispatchQueue.main.async {
-//
-//
-//            print(landmark)
-//            self.detail? = landmark
-//
-//
-//        }
-//    }
-//
-//}

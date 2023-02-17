@@ -1,13 +1,7 @@
 import Foundation
-
-protocol DataManagerDelegate {
-    func storeLocations(_ dataManager: DataManager, landmarks: [Landmark])
-    func didFailWithError(error: Error)
-}
+import Combine
 
 struct DataManager {
-    
-    var delegate: DataManagerDelegate?
     
     
     func fetchData() -> [Landmark] {
@@ -34,7 +28,6 @@ struct DataManager {
     }
     
 }
-
 
 
 

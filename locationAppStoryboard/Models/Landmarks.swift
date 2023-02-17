@@ -1,6 +1,6 @@
 import Foundation
-import SwiftUI
 import CoreLocation
+import UIKit
 
 struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
@@ -9,11 +9,13 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var description: String
     var isFavorite: Bool
+    var isFeatured: Bool
+    var category: String
 
 
     var imageName: String
-        var image: Image {
-            Image(imageName)
+    var image: UIImage {
+        UIImage(named: imageName)!
     }
 
 

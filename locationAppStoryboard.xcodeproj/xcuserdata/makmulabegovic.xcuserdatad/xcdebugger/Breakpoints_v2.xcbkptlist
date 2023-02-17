@@ -7,32 +7,95 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4E2DE08B-D337-4DBC-AEAB-5FC3D57C4B99"
+            uuid = "4042C009-7DAF-4DE8-A40F-FAE24BF3215C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "locationAppStoryboard/Views/DetailController.swift"
+            filePath = "locationAppStoryboard/Views/ListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F4E91DBA-908B-4A56-9F7F-AB1093AAC296"
+            uuid = "A0C4F096-2A6C-496E-B5D8-6FAFA48398C2"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "locationAppStoryboard/CostumTableViewCell.swift"
+            filePath = "locationAppStoryboard/Views/ListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "changeStarStatus(_:)"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A0C4F096-2A6C-496E-B5D8-6FAFA48398C2 - ae316e1bc0293875"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (locationAppStoryboard.Landmark) -&gt; () in locationAppStoryboard.TableListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "locationAppStoryboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/makmulabegovic/Desktop/locationStoryboard2/locationAppStoryboard/Views/ListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "324">
+               </Location>
+               <Location
+                  uuid = "A0C4F096-2A6C-496E-B5D8-6FAFA48398C2 - ae316e1bc0293875"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (locationAppStoryboard.Landmark) -&gt; () in locationAppStoryboard.TableListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "locationAppStoryboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/makmulabegovic/Desktop/locationStoryboard2/locationAppStoryboard/Views/ListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "A0C4F096-2A6C-496E-B5D8-6FAFA48398C2 - 6c835e38c22157fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (locationAppStoryboard.Landmark) -&gt; Swift.Bool in closure #1 (locationAppStoryboard.Landmark) -&gt; () in locationAppStoryboard.TableListViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "locationAppStoryboard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/makmulabegovic/Desktop/locationStoryboard2/locationAppStoryboard/Views/ListController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C948367-9215-40A3-A9B8-4ECCAE8587BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "locationAppStoryboard/Views/ProfileController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "storeStatus(status:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

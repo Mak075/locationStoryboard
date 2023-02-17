@@ -22,13 +22,9 @@ class CostumTableViewCell: UITableViewCell {
     
     @IBAction func changeStarStatus(_ sender: Any) {
         
-//        print(self.detail?.name, self.detail?.isFavorite)
-
-        var status = self.detail?.isFavorite
-//        print("details was status",status)
+        let status = self.detail?.isFavorite
         
         self.detail?.isFavorite = !status!
-//        print("after is now button",self.detail?.isFavorite)
         
         if(self.detail?.isFavorite == true) {
             self.landmarkAddToFav.image = UIImage(systemName: "star.fill")
@@ -36,16 +32,12 @@ class CostumTableViewCell: UITableViewCell {
             self.landmarkAddToFav.image = UIImage(systemName: "star")
         }
         
-//        print(self.detail?.name, self.detail?.isFavorite)
         self.delegate?.storeLandmark(landmark: self.detail)
-        
-        
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
 }
